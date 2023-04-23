@@ -1,25 +1,29 @@
+
 body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
     
 }
 h1{
     display: inline-block;
-    
+    }
+#design{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
 }
 a{
     text-decoration: none;
-
 }
 
 
-#menu{
+menu{
     text-align: right;
-    display: flex
+    display: flex;
 }
 
 ul {
-    margin: 10px;
+    margin: 20px;
     padding:0;
 }
 
@@ -27,6 +31,7 @@ li {
     margin: 20px;
     margin-top: 10%;
     display: inline;
+    
 }
 
 li a {
@@ -43,61 +48,62 @@ li a:hover {
     border-color: #000;
 }
 
-
-img{
-    border-radius: 50%;
-
-    
+#fotoperfil{
+    border-radius: 50%;  
 }
 
 #logo{
     display: inline-block;
-  
 }
    
 #lhay{
     display: inline-block;
+    text-align: justify;
     float: right;
     width: 50%;
     margin-right: 10%;
 
 }
 
-
-#cv{
+#cv, #cmais,#lermais{
     display: inline;
     text-align: center;
     background-color: #f6d3e9;
     height: 40px;
-    width: 150px;
+    width: px;
     font-weight: bold;
     border-radius: 5px; 
     border: 0px;
     box-shadow: 2px 3px gray; 
+    padding: 5px 10px;
 }
+
 
 #stacks{
+    background-color: #E1DEDE;
+    height: 300px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-h2{
-    text-align: center;
 }
-    
+
+#ferramenta{
+    width: 1000px;
+    height: 300px;
+}
+
+#sta{
+    color: royalblue;
+    text-align: center;
+    }
+
+#porto{
+    display: inline-block;
+    padding: 20px 20px 20px;
+}
+
+}
+ 
 form{font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-       
-
 }
 
 input, textarea {
@@ -111,9 +117,7 @@ input, textarea {
     border: 1px solid;
 }
 
-
-
-.enviar {
+.enviar{
     background-color: lightgray;
     height: 40px;
     width: 100px;
