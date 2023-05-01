@@ -1,0 +1,46 @@
+body{
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+
+.menu{
+  height: 40px;
+  display: flex;
+}
+.App{
+  background-color: white;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+.estante{
+  height: 600px;
+  width: 900px;
+  
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px 150px;
+  grid-template-rows: 300px 300px;
+  padding: 20px;
+  padding-left: 10px;
+
+
+  
+
+}
+.resenha{
+  width: 800px;
+  height: 300px;
+  border: 3px solid;
+  border-color: rgb(60, 189, 125);
+  margin-left: 30px;
+  padding: 10px;
+
+}
+
+h3{
+  margin-left: 40px;
+}

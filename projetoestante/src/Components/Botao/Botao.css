@@ -1,0 +1,15 @@
+button{
+    width: 200px;
+    height: 60px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #EBE0D6;
+    border-color:#EBE0D6;
+    border-bottom: 0px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+#capa{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  
+}
+
+#bookstar{
+   
+    width: 150px;
+    height: 250px;
+    border: 1px solid;
+
+    
+    
+}
+
+#capalivro{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#starem{
+    width: 15px;
+    padding: -20px -20px -20px -20px;
+}
+#starfu{
+    width: 15px;
+    padding: -20px -20px -20px -20px;
+}
+    
+
+span{
+    padding: 2px 2px 2px 2px;
+    margin-top: -10px;
+    margin-left: 2px;
+
+}
