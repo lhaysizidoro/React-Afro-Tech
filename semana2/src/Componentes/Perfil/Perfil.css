@@ -3,7 +3,7 @@
     display: grid;
     flex-direction: row;
     height: 300px;
-    grid-template-columns: 300px 200px 80px 80px;
+    grid-template-columns: 300px 200px;
     
 }
 
@@ -12,6 +12,7 @@
     flex-direction: row;
     margin-left: 50px;
    margin-top: 25px;
+  
     
 
 }
@@ -23,36 +24,20 @@
      box-shadow: 3px 3px 3px 3px gray;
 }
 
-#cont1{
-    width: 100px;
-    font-size: 20px;
-    height: 100px;
-    background-color: #7C77B9;
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 80px;
-    border-radius: 50%;
-    margin-left: 80px;
-    
-
-}
-
-#cont2{
-    font-size: 20px;
-    width: 100px;
-    height: 100px;
-    background-color: #7C77B9;
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 80px;
-    margin-left: 150px;
-    border-radius: 50%;
-    
-
-}
-
 #nomeuser{
     margin-top: 70px;
+    width: 200px;
+ 
    
+
+
 }
 
+.p{
+    font-size: 30px;
+}
+
+#nomeprincipal{
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css'
+import {GiSpellBook} from "react-icons/gi";
 
 
 
@@ -7,16 +8,13 @@ import './Header.css'
 function Header(props){
   return (
     <header>
-      <span>{props.icone}</span>
+      <GiSpellBook/>
       {props.titulo}
      
       
     </header>
   )
   }
-
-
-  
 
 
 

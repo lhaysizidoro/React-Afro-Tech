@@ -13,9 +13,9 @@ import Lidos from './Paginas/Lidos/Lidos';
 import Desejados from './Paginas/Desejados/Desejados';
 import { BrowserRouter as Router, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
 import Menu from './Componentes/Menu/Menu';
-//import Book from './Componentes/Book/Book';
 import ContagemContext from './ContagemContext/ContagemContext';
-import BtnContagem from './Componentes/BotaoLido/BntContagem';
+import {GiSpellBook} from "react-icons/gi";
+
 
 
 
@@ -43,12 +43,34 @@ function App() {
 
 
         <div className='topo'>
-          <Header
-            titulo="Leiturinhas." />
-          <Perfil
+          <Header id="headerr"
+            titulo="Leiturinhas."
+            icone={GiSpellBook} />
+              <Menu />
+
+              
+              
+    
+
+    
+          <Perfil id="Perfil"
             imagem={robin}
-            nome="Nico Robin" />
-       
+            nome="Nico Robin"></Perfil>
+            
+            <div className='conte'>
+            <ContagemContext.Provider value={{contagem, setContagem}}>
+        
+            <span><h3>Livros Lidos:</h3>{contagem}</span>
+        
+      </ContagemContext.Provider>
+      </div> 
+            
+            
+            
+            
+            
+          
+        
         </div>
         
     
@@ -56,6 +78,7 @@ function App() {
         <br></br>
 
         <div className='grid'>
+          <h1>Minha biblioteca</h1>
         <div className='estante'>
 
         <ContagemContext.Provider value={{contagem, setContagem}}>
@@ -68,15 +91,11 @@ function App() {
           </div>
 
           <div className='esquerda'>
-            <Menu />
+       
           </div>
 
           <div className='direita'>
-          <ContagemContext.Provider value={{contagem, setContagem}}>
-        
-            <span><h3>Livros Lidos:</h3>{contagem}</span>
-        
-      </ContagemContext.Provider>
+      
 
            
 

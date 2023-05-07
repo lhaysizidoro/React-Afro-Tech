@@ -1,13 +1,12 @@
 .body {
-  width: 100%;
-
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .App {
   background-color: white;
   min-height: 100vh;padding-bottom: 50px;
-  width: 100%;
+  
  
 }
 
@@ -23,10 +22,8 @@
     'resenha resenha resenha';
 }
 
-.topo {
-  display: grid;
-  grid-area: topo;
-}
+
+
 
 .estante {
   height: 600px;
@@ -63,9 +60,47 @@
 .direita {
   width: 100px;
   height: 100px;
-  background-color: lavender;
+
   display: grid;
   grid-area: direita;
 
 }
 
+
+.conte{
+  background-color: lavender;
+  width: 200px;
+  height: 200px;
+  display: flex-box;
+  justify-content: center;
+
+  display: grid;
+  grid-area: conte;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-top: 15px;
+  text-align: center;
+  
+
+
+
+}
+
+
+.perfil{
+  display: grid;
+  grid-area: perfil;
+}
+
+.headerr{
+  display: grid;
+  grid-area: header;
+}
+
+.topo{
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  grid-template-areas: ' header header'
+  'perfil conte';
+}

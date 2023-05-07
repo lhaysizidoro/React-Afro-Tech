@@ -1,18 +1,9 @@
-nav{
-   list-style-position: inside;
-}
-ul{
-    list-style-type: none;  
-    font-weight: bold;  
-    font-size: 20px; 
+#menu, ul, li{ 
+    padding: 2px 10px; 
+    display: inline-block; 
+    color: black;
     text-decoration: none;
-    
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
 }
-li{
-    text-decoration: none;
-    font-style: normal;
-    font: 100px;
-    
-}
-
-

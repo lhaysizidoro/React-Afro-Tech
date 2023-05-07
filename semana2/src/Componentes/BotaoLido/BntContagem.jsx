@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import ContagemContext from "../../ContagemContext/ContagemContext";
 
 
-
 function BtnContagem(){
     const [leitura, setLeitura] = useState("Marcar como lido");
     const [ativo, setAtivo] = useState(false);
