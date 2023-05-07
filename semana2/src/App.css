@@ -1,0 +1,71 @@
+.body {
+  width: 100%;
+
+
+}
+
+.App {
+  background-color: white;
+  min-height: 100vh;padding-bottom: 50px;
+  width: 100%;
+ 
+}
+
+.grid{
+  display: grid;
+
+  grid-template-columns: 3;
+  grid-template-rows: 4;
+
+  grid-template-areas: 
+    'topo topo topo'
+    'esquerda estante direita'
+    'resenha resenha resenha';
+}
+
+.topo {
+  display: grid;
+  grid-area: topo;
+}
+
+.estante {
+  height: 600px;
+  width: 900px;
+  justify-content: center;
+  display: grid;
+  grid-area: estante;
+
+
+
+
+
+}
+
+.resenha {
+  width: 1000px;
+  height: 300px;
+  border: 3px solid;
+  border-color: rgb(60, 189, 125);
+  margin-left: 30px;
+  padding: 10px;
+  display: grid;
+  grid-area: resenha;
+
+}
+.esquerda {
+  width: 250px;
+  height: 700px;
+  display: grid;
+  grid-area: esquerda;
+}
+
+
+.direita {
+  width: 100px;
+  height: 100px;
+  background-color: lavender;
+  display: grid;
+  grid-area: direita;
+
+}
+

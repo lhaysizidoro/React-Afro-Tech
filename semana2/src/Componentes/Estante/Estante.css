@@ -1,0 +1,11 @@
+
+.estant{
+  height: 600px;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 150px;
+  grid-template-rows: 300px 300px;
+  padding: 20px;
+  padding-left: 10px;
+}
+

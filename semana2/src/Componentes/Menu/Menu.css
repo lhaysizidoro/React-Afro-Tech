@@ -1,0 +1,18 @@
+nav{
+   list-style-position: inside;
+}
+ul{
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 20px; 
+    text-decoration: none;
+    
+}
+li{
+    text-decoration: none;
+    font-style: normal;
+    font: 100px;
+    
+}
+
+
